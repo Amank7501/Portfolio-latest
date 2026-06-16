@@ -204,10 +204,11 @@ function ResolvedHero() {
           transition={{ delay: 0.28, duration: 0.5 }}
         >
           {[
-            { n: '01', text: 'Low-code platform architecture & live preview' },
-            { n: '02', text: 'End-to-end AI code-generation pipelines' },
-            { n: '03', text: 'Collaboration systems with offline-first sync' },
-            { n: '04', text: 'Distributed full-stack platform engineering' },
+            { n: '01', text: 'Low-code platform architecture' },
+            { n: '02', text: 'Live preview feature architecture' },
+            { n: '03', text: 'End-to-end AI code-generation pipelines' },
+            { n: '04', text: 'Collaboration systems with offline-first sync' },
+            { n: '05', text: 'Distributed full-stack platform engineering' },
           ].map((item) => (
             <div key={item.n} className="flex items-center gap-4">
               <span

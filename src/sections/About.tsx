@@ -29,9 +29,10 @@ const STATS = [
 const TYPEWRITER_TEXT = profile.summary
 
 const FOCUS_ITEMS = [
-  'end-to-end AI code-generation pipelines',
-  'collaboration systems with offline-first sync',
-  'low-code platform architecture & live preview',
+  'LangGraph-based multi-agent frontend generation workflow from backend specifications',
+  'AI agents for screen planning, UI flow generation, and validation',
+  'multi-step AI workflows using Python, LangGraph, and LLMs.',
+  'resumable AI workflows for iterative review and refinement',
 ] as const
 
 // Competency domains shown as animated bars

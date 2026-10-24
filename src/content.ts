@@ -8,13 +8,13 @@ export const profile = {
   tagline:
     "I build low-code platforms, AI codegen pipelines, and collaboration systems with offline-first sync.",
   summary:
-    "Full-stack engineer with 2+ years building scalable low-code platform, end-to-end AI code-generation pipelines, and multi-user collaboration systems with offline-first sync. At CTRI-DG / IIIT Bangalore I own the full frontend generation module of RASP — drag-and-drop builder, live preview engine, AI codegen workflows, and the distributed collaboration layer. Shipped production apps like nodues.iiitb.net end-to-end in 2 days, serving 300+ students. Strong foundation in distributed architecture with a track record of leading teams and delivering high-impact platform capabilities at research-grade scale.",
+    "Full-Stack & AI Engineer with 2.5+ years of experience building AI-powered developer platforms, scalable code-generation systems, and real-time collaborative applications. Experienced in React, TypeScript, Node.js, Java, LangChain, and LangGraph, with expertise in LLM workflow orchestration, distributed systems, offline-first synchronization, and production deployment. Proven track record of owning features end-to-end, shipping production applications, and leading engineering teams.",
   location: "Bengaluru, India",
   links: {
     email: "kaman7501@gmail.com",
     phone: "+91-7681824426",
     github: "https://github.com/Amank7501",
-    linkedin: "https://www.linkedin.com/in/aman-kumar-818412172",
+    linkedin: "https://www.linkedin.com/in/aman-k-028412443",
     resume: "/AmanKumar_Resume.pdf",
   },
 } as const;
@@ -29,11 +29,13 @@ export const experience = [
     highlights: [
       "Engineered the frontend generation module from scratch, converting abstract UI models into production-ready React apps with complex component hierarchies, dynamic state, and automatic routing.",
       "Designed a full code-generation pipeline (dynamic component composition, style integration, API bindings) letting non-technical users generate full-stack apps with zero code.",
-      "Built a distributed multi-user collaboration system with offline-first sync, unit-level versioning, and hash-based conflict detection — supporting 10+ concurrent users.",
-      "Integrated AI codegen for automated Spring Boot backend generation via workflow orchestration and resumable multi-step flows — cutting backend scaffolding time by 70%.",
-      "Designed a typed multi-stage code-generation pipeline that transforms a structured backend definition into validated frontend specifications — data models, store, DTOs, adapters, view-models, and a design-token/theme layer — under an MVVM + Zustand architecture, driving automated React generation with consistent styling.",
-      "Delivered the production No-Dues app for IIIT Bangalore (nodues.iiitb.net) end-to-end in 2 days using RASP — serving 300+ students.",
-      "Deployed and managed 3+ production services via Docker; mentored 20+ interns and junior engineers.",
+      "Built a distributed multi-user collaboration system with offline-first sync, unit-level versioning, and hash-based conflict detection — supporting concurrent development across 10+ simultaneous users.",
+      "Architected AI-powered frontend and backend code-generation pipelines using LangChain and LangGraph, orchestrating multi-step LLM workflows for planning, code generation, validation, and full-stack application development.",
+      "Spearheaded a drag-and-drop UI builder using React, TypeScript, React DnD, and Zustand with real-time component manipulation and live state preview.",
+      "Implemented live preview enabling real-time UI rendering without full application generation, improving developer iteration speed by 60%.",
+      "Delivered the production No-Dues app for IIIT Bangalore (nodues.iiitb.net) end-to-end in 4 days using RASP — from requirements and architecture to full-stack code generation (React + AI-generated Spring Boot backend), testing, and deployment — serving 300+ students across departments.",
+      "Deployed and managed 3+ production-grade services (RASP core, Collaboration Server, AI Codegen, Workflow Service, IR-to-Code Service) using Docker, handling containerization, environment config, and multi-service orchestration.",
+      "Mentored 20+ interns and junior engineers, leading code reviews and architectural decisions across multiple teams.",
     ],
   },
   {
@@ -131,17 +133,22 @@ export const projects = [
 ] as const;
 
 export const skills = {
-  "Languages & Core": ["JavaScript/TypeScript", "Java", "C/C++", "SQL"],
+  "AI & LLM Engineering": [
+    "LangChain", "LangGraph", "LLM Workflow Orchestration", "AI Code Generation",
+    "Agentic Workflows", "Prompt Engineering",
+  ],
+  "Languages & Core": ["JavaScript/TypeScript", "Python", "Java", "C/C++", "SQL"],
   Frontend: ["React", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
   "State & UI Systems": ["Zustand", "React Flow", "React DnD", "AG Grid", "TanStack Query"],
   "Backend & Real-time": ["Node.js", "Express.js", "REST APIs", "WebSockets", "Socket.IO", "JWT"],
   Architecture: [
-    "Distributed systems","Multi-user collaboration systems with offline-first sync", "Conflict detection & resolution",
-    "Low-code Code Generation", "Workflow orchestration",
+    "Distributed systems", "Offline-first sync", "Conflict detection & resolution",
+    "Multi-user collaboration",
+    "Low-code codegen", "Workflow orchestration",
     "Live preview", "Version control",
   ],
   "Data & DevOps": [
-    "MongoDB", "MySQL", "PostgreSQL", "Prisma","Docker", "GitHub Actions", "CI/CD"
+    "MongoDB", "MySQL", "PostgreSQL", "Prisma", "Docker", "GitHub", "GitHub Actions", "CI/CD"
   ],
 } as const;
 
@@ -163,7 +170,7 @@ export const achievements = [
   {
     title: "Exhibitor — Bangalore International Tech Summit 2025",
     detail:
-      "Represented CTRI-DG @ IIIT Bangalore; ran live demos of RASP (drag-and-drop builder, workflow engine, full-stack generation) for industry leaders, government officials, and international delegates.",
+      "Represented CTRI-DG @ IIIT Bangalore; ran live demos of RASP — drag-and-drop UI builder, model-driven workflow engine, full-stack application generation, and the complete end-to-end developer experience — for industry leaders, government officials, and international delegates.",
   },
   {
     title: "GATE 2022 — 97.96 percentile",
